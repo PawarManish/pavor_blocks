@@ -1,7 +1,7 @@
 # video: mauli_builds.mp4
 # command to run project : npm start
 
-# error ( port already in use {port_number})
+# solve error ( port already in use {port_number})
 
 1.  1.  find PID of running port => netstat -ano | findstr :3000 (in gitbash)
     2.  check PID i.e number in front of word LISTENING
