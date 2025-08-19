@@ -16,3 +16,5 @@
 # run project
 ans=> npm start or nodemon
 
+
+# project video  = mauli_builts.mp4
