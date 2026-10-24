@@ -40,7 +40,6 @@ router.get('/milano', function(req, res, next) {
   res.render('milano');
 });
 
-
 router.get('/login', function(req, res, next) {
   res.render('login');
 });
@@ -48,6 +47,9 @@ router.get('/register', function(req, res, next) {
   res.render('register');
 });
 
+router.get('/',function(req,res){
+  res.render('');
+})
 
 router.get('/order',isLogged, async function(req, res, next) {
   const user =  await userModel.findOne({username:req.session.passport.user});

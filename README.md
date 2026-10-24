@@ -1,4 +1,16 @@
+run command : npm start
+or
+run command : nodemon
+
+# error
+
+1. port elready in use ( write this ans in terminal powershell not in gitbash)
+   ans => taskkill /PID 15824 /F
+2. to run project
+   ans=> npm start or nodemon
+
 # video: mauli_builds.mp4
+
 # command to run project : npm start
 
 # solve error ( port already in use {port_number})
@@ -14,8 +26,7 @@
         TCP [::1]:62585 [::1]:3000 TIME_WAIT 0
 
 # run project
+
 ans=> npm start or nodemon
 
-
-project video  = mauli_build.mp4
-
+project video = mauli_build.mp4
